@@ -1,0 +1,12 @@
+.card {
+  background: #fff;
+}
+
+.card .card-header {
+  background: blue;
+}
+
+.card .card-content {
+  padding: 1rem;
+}
+/*# sourceMappingURL=card.css.map */

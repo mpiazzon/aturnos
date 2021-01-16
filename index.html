@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>app</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="aside">
+        <img src="img/logo.png" width="70" alt="" style="margin: 10px auto" />
+        <div class="welcome">
+          <div>
+            <i class="material-icons-two-tone avatar">account_circle</i>
+          </div>
+          <div>
+            <p>Bienvenido</p>
+            <h5>Martin Piazzon</h5>
+            <a href="#"><i class="material-icons">settings</i>Mi Cuenta</a>
+          </div>
+        </div>
+        <button class="menu-btn active">
+          Inicio
+          <i class="material-icons">arrow_forward </i>
+        </button>
+        <button class="menu-btn">
+          Usuarios<i class="material-icons">arrow_forward </i>
+        </button>
+        <button class="menu-btn">
+          Agenda <i class="material-icons">arrow_forward </i>
+        </button>
+        <button class="menu-btn">
+          Ajustes
+          <i class="material-icons">arrow_forward</i>
+        </button>
+      </div>
+      <div class="main-content">
+        <div>
+          <div class="user-list">
+            <h4>Lista de usuarios</h4>
+            <a href="#" class="add-user"
+              ><i class="material-icons-two-tone">person_add_alt_1</i></a
+            >
+            <div>
+              <h3>Juan</h3>
+              <p><span class="badge">Super Admin</span></p>
+              <p>
+                <i class="material-icons more">arrow_drop_down </i>
+              </p>
+            </div>
+            <div>
+              <h3>Matin Piazzon</h3>
+              <span class="badge">Doctor</span>
+              <p>
+                <i class="material-icons">arrow_drop_down </i>
+              </p>
+            </div>
+            <div>
+              <h3>Matin Piazzon</h3>
+              <span class="badge">Doctor</span>
+              <p>
+                <i class="material-icons">arrow_drop_down </i>
+              </p>
+            </div>
+            <div>
+              <h3>Matin Piazzon</h3>
+              <span class="badge">Doctor</span>
+              <p>
+                <i class="material-icons">arrow_drop_down </i>
+              </p>
+            </div>
+            <div>
+              <h3>Matin Piazzon</h3>
+              <span class="badge">Doctor</span>
+              <p>
+                <i class="material-icons md-36">arrow_drop_down </i>
+              </p>
+            </div>
+            <div>
+              <h3>Matin Piazzon</h3>
+              <span class="badge">Doctor</span>
+              <p>
+                <i class="material-icons md-36">arrow_drop_down </i>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content mt-1">
+              <a class="btn red">button</a>
+              <a class="waves-effect teal btn">Button</a>
+
+              <div class="input-field col s6">
+                <input
+                  placeholder=""
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                />
+                <label for="first_name">First Name</label>
+              </div>
+
+              <div class="form-input">
+                <label>
+                  <textarea rows="10" required></textarea>
+                  <span class="placeholder">Textarea</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="title">Accesos rapidos</h2>
+          <h3>hol com va</h3>
+          <div class="cards">
+            <div class="card-btn first">
+              <i class="material-icons-two-tone">event</i>
+              <h3>Calendario</h3>
+            </div>
+
+            <div class="card-btn">
+              <i class="material-icons-two-tone">contact_mail</i>
+              <h3>Agenda</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="card-btn">
+              <i class="material-icons-two-tone">person_add</i>
+              <h3>Recetas</h3>
+            </div>
+
+            <div class="card-btn">
+              <i class="material-icons-two-tone">person_add</i>
+              <h3>Obras Sociales</h3>
+            </div>
+
+            <div class="card-btn">
+              <i class="material-icons-two-tone">contact_mail</i>
+              <h3>Contacto</h3>
+            </div>
+            <div class="card-btn">
+              <i class="material-icons-two-tone">contact_mail</i>
+              <h3>Notificaciones</h3>
+              <p>
+                Ultima actividad en el sistema, nuevos turnos, pedidos de
+                recetas
+              </p>
+            </div>
+            <div class="card-btn first">
+              <i class="material-icons-two-tone">people</i>
+              <h3>Especialidades</h3>
+            </div>
+            <div class="card-btn">
+              <i class="material-icons-two-tone">person_add</i>
+              <h3>Agregar Usuario/Secretaria</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var i = 0;
+      var aa = document.querySelector(".more");
+
+      aa.onclick = function () {
+        if (i == 0) {
+          this.style.transform = "rotate(180deg)";
+          i = 1;
+        } else {
+          this.style.transform = "rotate(360deg)";
+          i = 0;
+        }
+      };
+    </script>
+  </body>
+</html>
